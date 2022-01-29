@@ -14,12 +14,15 @@ motor.when_rotated = handle_motor
 
 print("Run for degrees")
 motor.run_for_degrees(360)
+time.sleep(3)
 
 print("Run for seconds")
 motor.run_for_seconds(5)
+time.sleep(3)
 
 print("Run for rotations")
 motor.run_for_rotations(2)
+time.sleep(3)
 
 print("Start motor")
 motor.start()
